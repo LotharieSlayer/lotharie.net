@@ -1,5 +1,6 @@
-.main {
-}
+/* if needed */
+/* .main {
+} */
 
 .links_container {
 	margin-top: 2vh;
@@ -11,4 +12,12 @@
 	width: 100vw;
 	justify-content: center;
 	overflow: hidden;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	align-items: end;
+	margin-right: 2vh;
 }

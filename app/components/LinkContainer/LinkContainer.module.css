@@ -23,6 +23,35 @@
 	font-family: Ptolemy
 }
 
+.link_text_disabled {
+	color: #000;
+	font-family: Anybody;
+	font-size: 60px;
+	font-style: italic;
+	font-weight: 100;
+	line-height: normal;
+	font-variation-settings: 'wdth' 150;
+	text-decoration: none;
+	white-space: nowrap;
+	opacity: 0.5;
+}
+
 .link_container:hover .link_text:hover {
 	padding: 2px 0px;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.link_marquee {
+	animation: blink 0.2s infinite;
 }

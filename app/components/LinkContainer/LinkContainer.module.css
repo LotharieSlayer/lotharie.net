@@ -55,3 +55,21 @@
 .link_marquee {
 	animation: blink 0.2s infinite;
 }
+
+@media (max-width: 800px) {
+	.link_text {
+		font-size: 40px;
+	}
+	.link_text_disabled {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 600px) {
+	.link_text {
+		font-size: 30px;
+	}
+	.link_text_disabled {
+		font-size: 30px;
+	}
+}
